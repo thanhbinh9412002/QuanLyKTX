@@ -1,0 +1,10 @@
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.AssemblyReference.cache
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.exe.config
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.exe
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.pdb
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Properties.Resources.resources
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.GenerateResource.cache
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.CoreCompileInputs.cache
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.exe
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.pdb
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Form_DangNhap.resources
