@@ -8,3 +8,14 @@ E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.CoreCompileIn
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.exe
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.pdb
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Form_DangNhap.resources
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.exe.config
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.exe
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.pdb
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.AssemblyReference.cache
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Form_DangNhap.resources
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.frm_NhanVien.resources
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Properties.Resources.resources
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.GenerateResource.cache
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.CoreCompileInputs.cache
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.exe
+D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.pdb
