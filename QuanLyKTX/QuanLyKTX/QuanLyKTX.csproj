@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class\DangNhap_DAO.cs" />
+    <Compile Include="Bus\DangNhap_BUS.cs" />
+    <Compile Include="Dao\DangNhap_DAO.cs" />
     <Compile Include="Data Provider\DataProvider.cs" />
     <Compile Include="Form\Form_DangNhap.cs">
       <SubType>Form</SubType>
@@ -83,10 +86,6 @@
   <ItemGroup>
     <Content Include="Query data\Nhóm07_Quản_Lý_Ký_Túc_Xá.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Bus\" />
-    <Folder Include="Class\" />
-    <Folder Include="Dao\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
