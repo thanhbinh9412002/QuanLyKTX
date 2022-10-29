@@ -372,6 +372,7 @@ END
 GO
 --														Thêm dữ liệu
 
+insert into NhanVien Values('NV00',N'Nguyễn Minh Quân','0367064999', N'Nam',N'Không',N'Việt Nam','221502492',N'Admin','NV00')
 insert into NhanVien Values('NV01',N'Nguyễn Thị Thương','0367064835', N'Nữ',N'Không',N'Việt Nam','221502791',N'Quản lý','NV01')
 insert into NhanVien Values('NV02',N'Lương Hoàng','0312452124', N'Nam',N'Không',N'Việt Nam','221531242',N'Bảo vệ','NV01')
 insert into NhanVien Values('NV03',N'Trần Tú','0364412342', N'Nam',N'Không',N'Việt Nam','221512463',N'Lao công','NV01')
