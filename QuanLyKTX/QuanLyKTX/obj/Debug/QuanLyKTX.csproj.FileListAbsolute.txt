@@ -7,16 +7,16 @@ E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.GenerateResou
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.CoreCompileInputs.cache
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.exe
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.pdb
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.exe.config
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.exe
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.pdb
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.AssemblyReference.cache
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Form_DangNhap.resources
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.frm_NhanVien.resources
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Properties.Resources.resources
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.GenerateResource.cache
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.CoreCompileInputs.cache
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.exe
-D:\SV3\Database management system\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.pdb
-E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.frm_DangNhap.resources
-E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.frm_NhanVien.resources
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Form_DangNhap.resources
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.exe.config
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.exe
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\bin\Debug\QuanLyKTX.pdb
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.AssemblyReference.cache
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.SuggestedBindingRedirects.cache
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Form_DangNhap.resources
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Form_ThongTinSinhVien.resources
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Properties.Resources.resources
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.GenerateResource.cache
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.csproj.CoreCompileInputs.cache
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.exe
+D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.pdb

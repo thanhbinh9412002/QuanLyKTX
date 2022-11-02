@@ -16,7 +16,7 @@ namespace QuanLyKTX
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_DangNhap());
+            Application.Run(new Form_ThongTinSinhVien());
         }
     }
 }
