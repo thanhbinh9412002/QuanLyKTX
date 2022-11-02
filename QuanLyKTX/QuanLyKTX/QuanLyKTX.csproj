@@ -46,13 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Data Provider\DataProvider.cs" />
-    <Compile Include="Form\Form_DangNhap.cs">
+    <Compile Include="Form\frm_DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\Form_DangNhap.Designer.cs">
-      <DependentUpon>Form_DangNhap.cs</DependentUpon>
+    <Compile Include="Form\frm_DangNhap.Designer.cs">
+      <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="Form\frm_NhanVien.cs">
       <SubType>Form</SubType>
@@ -61,10 +60,9 @@
       <DependentUpon>frm_NhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Main\Program.cs" />
-    <Compile Include="NhanVien.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form\Form_DangNhap.resx">
-      <DependentUpon>Form_DangNhap.cs</DependentUpon>
+    <EmbeddedResource Include="Form\frm_DangNhap.resx">
+      <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frm_NhanVien.resx">
       <DependentUpon>frm_NhanVien.cs</DependentUpon>

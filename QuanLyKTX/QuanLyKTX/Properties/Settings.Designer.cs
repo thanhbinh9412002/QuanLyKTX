@@ -29,9 +29,9 @@ namespace QuanLyKTX.Properties {
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=THANHBINH\\SQLEXPRESS;Initial Catalog=QuanLyKTX;Integrated Security=Tr" +
             "ue;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationInte" +
             "nt=ReadWrite;MultiSubnetFailover=False")]
-        public string s {
+        public string cnnStr {
             get {
-                return ((string)(this["s"]));
+                return ((string)(this["cnnStr"]));
             }
         }
     }

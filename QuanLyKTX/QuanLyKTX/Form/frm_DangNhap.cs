@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace QuanLyKTX
 {
-    public partial class Form_DangNhap : Form
+    public partial class frm_DangNhap : Form
     {
-        public Form_DangNhap()
+        public frm_DangNhap()
         {
             InitializeComponent();
         }
+
     }
 }
