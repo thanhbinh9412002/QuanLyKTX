@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
-namespace QuanLyKTX.Data_Provider
+namespace QuanLyKTX.DataProvider
 {
+
     public class DBConnection
     {
+        //SqlConnection cnnStr = new SqlConnection(@"Data Source=THANHBINH\SQLEXPRESS;Initial Catalog=QuanLyKTX;Integrated Security=True");
         private SqlDataAdapter adapter;
         private SqlConnection connection;
         public DBConnection()
@@ -48,7 +50,7 @@ namespace QuanLyKTX.Data_Provider
             }
         }
 
-        public object executeScalar(String query, SqlParameter[] sqlParameter)
+        public object executeScalar(String query, CommandType storedProcedure, SqlParameter[] sqlParameter)
         {
             using (SqlCommand sqlCommand = new SqlCommand(query, openConnection()))
             {
@@ -138,5 +140,51 @@ namespace QuanLyKTX.Data_Provider
                 }
             }
         }
-    }
+
+        public int ExecuteStoredProcedure(string spName, string[] pNames, object[] pValues) //trả về 1 giá trị khi gọi procedure bên sql
+
+        {
+            int kq = 0;
+            openConnection();
+            // Khai báo và khởi tạo đối tượng Command với tham số tên thủ tục spName
+            SqlCommand cmd = new SqlCommand(spName, connection);
+            // Khai báo kiểu thủ tục
+            cmd.CommandType = CommandType.StoredProcedure;
+            // Khai báo tham số SqlParameter
+            SqlParameter p;
+            // Khởi tạo danh sách các tham số với giá trị tương ứng
+            for (int i = 0; i < pNames.Length; i++)
+            {
+                p = new SqlParameter(pNames[i], pValues[i]);
+                cmd.Parameters.Add(p);
+            }
+            SqlParameter n = new SqlParameter("@kq", SqlDbType.Int);
+            n.Direction = ParameterDirection.ReturnValue;
+            cmd.Parameters.Add(n);
+            cmd.ExecuteScalar();
+            kq = (Int32)n.Value;
+            connection.Close();
+            return kq;
+        }
+
+        public int ExecuteStoredProcedure_Update(string spName, string[] pNames, object[] pValues) //thêm, xóa, sửa khi gọi procedure bên sql
+
+        {
+            openConnection();
+            // Khai báo và khởi tạo đối tượng Command với tham số tên thủ tục spName
+            SqlCommand cmd = new SqlCommand(spName, connection);
+            // Khai báo kiểu thủ tục
+            cmd.CommandType = CommandType.StoredProcedure;
+            // Khai báo tham số SqlParameter
+            SqlParameter p;
+            // Khởi tạo danh sách các tham số với giá trị tương ứng
+            for (int i = 0; i < pNames.Length; i++)
+            {
+                p = new SqlParameter(pNames[i], pValues[i]);
+                cmd.Parameters.Add(p);
+            }
+            connection.Close();
+            return cmd.ExecuteNonQuery(); 
+        }
+    }     
 }

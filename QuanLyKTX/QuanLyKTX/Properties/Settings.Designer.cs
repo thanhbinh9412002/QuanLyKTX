@@ -27,8 +27,7 @@ namespace QuanLyKTX.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=THANHBINH\\SQLEXPRESS;Initial Catalog=QuanLyKTX;Integrated Security=Tr" +
-            "ue;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationInte" +
-            "nt=ReadWrite;MultiSubnetFailover=False")]
+            "ue")]
         public string cnnStr {
             get {
                 return ((string)(this["cnnStr"]));
