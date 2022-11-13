@@ -15,6 +15,7 @@ namespace QuanLyKTX
     {
         public frm_DangNhap fmDangNhap;
         public string chucvu = null;
+        public string CCMD = null;
         public frm_TrangChu()
         {
             InitializeComponent();
@@ -49,6 +50,7 @@ namespace QuanLyKTX
             btn_CaiDat.Enabled = true;
             btn_ThietBi.Enabled = true;
             btn_ThongKe.Enabled = true;
+            lsb_ThongTinCaNhan.Visible = false;
         }
         private void MainNoEnabled()  // quyền quản lý
         {
@@ -64,7 +66,8 @@ namespace QuanLyKTX
 
         private void btn_TrangChu_Click(object sender, EventArgs e)
         {
-
+            btn_TrangChu.BackColor = Color.White;
+           // MessageBox.Show("Hello");
         }
 
         private void btn_HoaDon_Click(object sender, EventArgs e)
@@ -100,6 +103,11 @@ namespace QuanLyKTX
         private void btn_ThongKe_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_TrangChu_MouseHover(object sender, EventArgs e)
+        {
+            lsb_ThongTinCaNhan.Visible = true;
         }
     }
 }

@@ -39,11 +39,14 @@ namespace QuanLyKTX
             this.btn_SinhVien = new System.Windows.Forms.Button();
             this.btn_HoaDon = new System.Windows.Forms.Button();
             this.btn_TrangChu = new System.Windows.Forms.Button();
+            this.lsb_ThongTinCaNhan = new System.Windows.Forms.ListBox();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.panel1.Controls.Add(this.lsb_ThongTinCaNhan);
             this.panel1.Location = new System.Drawing.Point(120, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(540, 402);
@@ -202,6 +205,15 @@ namespace QuanLyKTX
             this.btn_TrangChu.UseMnemonic = false;
             this.btn_TrangChu.UseVisualStyleBackColor = false;
             this.btn_TrangChu.Click += new System.EventHandler(this.btn_TrangChu_Click);
+            this.btn_TrangChu.MouseHover += new System.EventHandler(this.btn_TrangChu_MouseHover);
+            // 
+            // lsb_ThongTinCaNhan
+            // 
+            this.lsb_ThongTinCaNhan.FormattingEnabled = true;
+            this.lsb_ThongTinCaNhan.Location = new System.Drawing.Point(25, 20);
+            this.lsb_ThongTinCaNhan.Name = "lsb_ThongTinCaNhan";
+            this.lsb_ThongTinCaNhan.Size = new System.Drawing.Size(484, 355);
+            this.lsb_ThongTinCaNhan.TabIndex = 0;
             // 
             // frm_TrangChu
             // 
@@ -222,6 +234,7 @@ namespace QuanLyKTX
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang chủ";
             this.Load += new System.EventHandler(this.frm_TrangChu_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -237,5 +250,6 @@ namespace QuanLyKTX
         private System.Windows.Forms.Button btn_ThietBi;
         private System.Windows.Forms.Button btn_CaiDat;
         private System.Windows.Forms.Button btn_ThongKe;
+        private System.Windows.Forms.ListBox lsb_ThongTinCaNhan;
     }
 }

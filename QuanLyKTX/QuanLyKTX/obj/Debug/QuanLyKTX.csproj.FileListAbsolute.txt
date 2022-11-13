@@ -22,3 +22,5 @@ D:\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.pdb
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.frm_DangNhap.resources
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.Form_ThongTinSinhVien.resources
 E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.frm_TrangChu.resources
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.frm_NhanVien.resources
+E:\GitHub\QuanLyKTX\QuanLyKTX\QuanLyKTX\obj\Debug\QuanLyKTX.frm_CapNhatNhanVien.resources
