@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bus\DangNhap_BUS.cs" />
+    <Compile Include="Bus\SinhVien_BUS.cs" />
     <Compile Include="Class\DangNhap_Class.cs" />
     <Compile Include="Dao\DangNhap_DAO.cs" />
+    <Compile Include="Dao\SinhVien_DAO.cs" />
     <Compile Include="Data Provider\DataProvider.cs" />
     <Compile Include="Form\frm_DangNhap.cs">
       <SubType>Form</SubType>
@@ -56,17 +58,17 @@
     <Compile Include="Form\frm_DangNhap.Designer.cs">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\Form_ThongTinSinhVien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\Form_ThongTinSinhVien.Designer.cs">
-      <DependentUpon>Form_ThongTinSinhVien.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form\frm_TrangChu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\frm_TrangChu.Designer.cs">
       <DependentUpon>frm_TrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm_SinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm_SinhVien.Designer.cs">
+      <DependentUpon>frm_SinhVien.cs</DependentUpon>
     </Compile>
     <Compile Include="Main\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,11 +78,11 @@
     <EmbeddedResource Include="Form\frm_DangNhap.resx">
       <DependentUpon>frm_DangNhap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\Form_ThongTinSinhVien.resx">
-      <DependentUpon>Form_ThongTinSinhVien.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form\frm_TrangChu.resx">
       <DependentUpon>frm_TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm_SinhVien.resx">
+      <DependentUpon>frm_SinhVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -108,6 +110,15 @@
   <ItemGroup>
     <Content Include="Query data\Nhóm07_Quản_Lý_Ký_Túc_Xá.sql" />
     <Content Include="Resources\device-icon.png" />
+    <None Include="Resources\icons8-filter-24.png" />
+    <None Include="Resources\H41.PNG" />
+    <None Include="Resources\Nhap.PNG" />
+    <None Include="Resources\icons8-spinner-50.png" />
+    <None Include="Resources\Sua.PNG" />
+    <None Include="Resources\H5.PNG" />
+    <None Include="Resources\Xoa.PNG" />
+    <None Include="Resources\luu.png" />
+    <None Include="Resources\tienphong_kytucfpt_xzyl.jpg" />
     <None Include="Resources\Files-icon.png" />
     <None Include="Resources\setting.png" />
     <None Include="Resources\Peoples-icon.png" />
