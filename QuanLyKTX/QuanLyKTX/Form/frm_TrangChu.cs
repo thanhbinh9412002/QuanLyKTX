@@ -14,27 +14,28 @@ namespace QuanLyKTX
     public partial class frm_TrangChu : Form
     {
         public frm_DangNhap fmDangNhap;
-        public string chucvu = null;
-        public string CCMD = null;
+        public string chucvu = " ";
+        public string chucvu1;
         public frm_TrangChu()
         {
             InitializeComponent();
+            chucvu1 = label1.Text;
         }
 
         private void frm_TrangChu_Load(object sender, EventArgs e)
         {
             //MainNoEnabled();
-            fmDangNhap = new frm_DangNhap();
-            fmDangNhap.fmTrangChu = this;
-            fmDangNhap.ShowDialog();
-            if (chucvu == "Admin")
-            {
-                MainEnabled();
-            }
-            else
-            {
-                MainNoEnabled();
-            }
+            //fmDangNhap = new frm_DangNhap();
+            //fmDangNhap.fmTrangChu = this;
+            //fmDangNhap.ShowDialog();
+            //if (chucvu == "Admin")
+            //{
+            //    MainEnabled();
+            //}
+            //else
+            //{
+            //    MainNoEnabled();
+            //}
 
             //lblUser.Text = "Hi " + mfullname + " !";
 
@@ -50,7 +51,6 @@ namespace QuanLyKTX
             btn_CaiDat.Enabled = true;
             btn_ThietBi.Enabled = true;
             btn_ThongKe.Enabled = true;
-            lsb_ThongTinCaNhan.Visible = false;
         }
         private void MainNoEnabled()  // quyền quản lý
         {
@@ -66,13 +66,19 @@ namespace QuanLyKTX
 
         private void btn_TrangChu_Click(object sender, EventArgs e)
         {
-            btn_TrangChu.BackColor = Color.White;
-           // MessageBox.Show("Hello");
+            //Form_ThongTinSinhVien frmsv = new Form_ThongTinSinhVien();
+            //frmsv.Show();
+            panel1.Controls.Clear();
         }
 
         private void btn_HoaDon_Click(object sender, EventArgs e)
         {
-
+            
+            //Form_ThongTinSinhVien frmHD = new Form_ThongTinSinhVien();
+            //frmHD.TopLevel = false;
+            //panel1.Controls.Clear();
+            //panel1.Controls.Add(frmHD);
+            //frmHD.Show();
         }
 
         private void btn_Toa_Click(object sender, EventArgs e)
@@ -82,7 +88,12 @@ namespace QuanLyKTX
 
         private void btn_SinhVien_Click(object sender, EventArgs e)
         {
-
+            
+            frm_SinhVien frmSV = new frm_SinhVien();
+            frmSV.TopLevel = false;
+            panel1.Controls.Clear();
+            panel1.Controls.Add(frmSV);
+            frmSV.Show();
         }
 
         private void btn_NhanVien_Click(object sender, EventArgs e)
@@ -103,11 +114,6 @@ namespace QuanLyKTX
         private void btn_ThongKe_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void btn_TrangChu_MouseHover(object sender, EventArgs e)
-        {
-            lsb_ThongTinCaNhan.Visible = true;
         }
     }
 }

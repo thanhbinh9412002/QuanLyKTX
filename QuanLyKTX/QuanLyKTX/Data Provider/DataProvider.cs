@@ -12,9 +12,9 @@ namespace QuanLyKTX.DataProvider
 
     public class DBConnection
     {
-        //SqlConnection cnnStr = new SqlConnection(@"Data Source=THANHBINH\SQLEXPRESS;Initial Catalog=QuanLyKTX;Integrated Security=True");
+        SqlConnection cnnStr = new SqlConnection(@"Data Source=LAPTOP-MB5F72F2\SQLEXPRESS;Initial Catalog=QuanLyKTX;Integrated Security=True");
         private SqlDataAdapter adapter;
-        private SqlConnection connection;
+        private static SqlConnection connection;
         public DBConnection()
         {
             adapter = new SqlDataAdapter();
@@ -183,8 +183,24 @@ namespace QuanLyKTX.DataProvider
                 p = new SqlParameter(pNames[i], pValues[i]);
                 cmd.Parameters.Add(p);
             }
+            return cmd.ExecuteNonQuery();
             connection.Close();
-            return cmd.ExecuteNonQuery(); 
+        }
+        public  DataSet GetDataToDataSet(string sqlExpess, params SqlParameter[] pm)
+        {
+            DataSet data_set = new DataSet();
+
+            SqlCommand command = new SqlCommand(sqlExpess, openConnection());
+
+            command.Parameters.Clear();
+            foreach (SqlParameter a in pm)
+            {
+                command.Parameters.Add(a);
+            }
+            SqlDataAdapter dataAdapter = new SqlDataAdapter(command);
+
+            dataAdapter.Fill(data_set);
+            return data_set;
         }
     }     
 }

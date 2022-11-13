@@ -63,26 +63,6 @@ namespace QuanLyKTX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap add_icon {
-            get {
-                object obj = ResourceManager.GetObject("add-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap back_icon {
-            get {
-                object obj = ResourceManager.GetObject("back-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap device_icon {
             get {
                 object obj = ResourceManager.GetObject("device-icon", resourceCulture);
@@ -113,6 +93,26 @@ namespace QuanLyKTX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap H41 {
+            get {
+                object obj = ResourceManager.GetObject("H41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap H5 {
+            get {
+                object obj = ResourceManager.GetObject("H5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap home_icon_ {
             get {
                 object obj = ResourceManager.GetObject("home-icon ", resourceCulture);
@@ -123,9 +123,39 @@ namespace QuanLyKTX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap people_icon {
+        internal static System.Drawing.Bitmap icons8_filter_24 {
             get {
-                object obj = ResourceManager.GetObject("people-icon", resourceCulture);
+                object obj = ResourceManager.GetObject("icons8-filter-24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_spinner_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-spinner-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap luu {
+            get {
+                object obj = ResourceManager.GetObject("luu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nhap {
+            get {
+                object obj = ResourceManager.GetObject("Nhap", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,16 +166,6 @@ namespace QuanLyKTX.Properties {
         internal static System.Drawing.Bitmap Peoples_icon {
             get {
                 object obj = ResourceManager.GetObject("Peoples-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap remove_icon {
-            get {
-                object obj = ResourceManager.GetObject("remove-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +196,46 @@ namespace QuanLyKTX.Properties {
         internal static System.Drawing.Bitmap Student_icon {
             get {
                 object obj = ResourceManager.GetObject("Student-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sua {
+            get {
+                object obj = ResourceManager.GetObject("Sua", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tienphong_kytucfpt_xzyl {
+            get {
+                object obj = ResourceManager.GetObject("tienphong_kytucfpt_xzyl", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Xoa {
+            get {
+                object obj = ResourceManager.GetObject("Xoa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Xoa1 {
+            get {
+                object obj = ResourceManager.GetObject("Xoa1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
