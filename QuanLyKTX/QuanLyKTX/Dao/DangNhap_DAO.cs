@@ -28,5 +28,6 @@ namespace QuanLyKTX.DAO
             int count = cnn.ExecuteStoredProcedure(spName, pNames, pValues);
             return count;
         }
+        
     }
 }
